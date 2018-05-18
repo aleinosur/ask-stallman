@@ -6,10 +6,10 @@ if (isset($_POST['question'])) {
     $email = $_POST['email'];
     $question = utf8_decode ($_POST['question']);
     if ($email == '') {
-      $email = 'preguntas@matrproject.com';
+      $email = 'info@matrproject.com';
     }
 
-    $to = 'preguntas@matrproject.com'; 
+    $to = 'info@matrproject.com'; 
 
     $subject = 'Nueva Pregunta';
 
